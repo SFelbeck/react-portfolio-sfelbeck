@@ -1,11 +1,14 @@
+//imports react as well as the render functions for the header and footer, and finally applies the universal styling file
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import '../App.css'
 
+//a function that renders the html elements and exports the default version
 function MainPage(){
     return(
         <body>
+            {/* inserts the header render function here */}
             <Header />
             <main>
                 <section class="underheader">
@@ -20,6 +23,7 @@ function MainPage(){
                     </p>
                 </section>
             </main>
+            {/* inserts the footer render function here */}
             <Footer />
         </body>
     )

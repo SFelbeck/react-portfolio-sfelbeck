@@ -1,3 +1,4 @@
+//imports the page rendering functions from their respective js files as well as react
 import React from "react";
 import MainPage from "./components/Display";
 import Project from "./components/Project";
