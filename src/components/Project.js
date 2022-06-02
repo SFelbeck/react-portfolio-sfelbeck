@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
-function project() {
+function Project() {
     <section id="work" class="work">
+        <Header />
             <h1>Work</h1>
 
             <section id="main" class="work-card">
@@ -22,8 +25,8 @@ function project() {
                 <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img class="back-pic" src="./assets/assets/after.png" alt="Weather" width="100%" height="200px"/></a>
                 <h3 class="image-header">Weather Dashboard</h3>
             </section>
-
-        </section>
+        <Footer />
+    </section>
 }
 
-export default project;
+export default Project;
