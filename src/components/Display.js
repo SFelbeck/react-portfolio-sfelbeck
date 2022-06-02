@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import '../App.css'
 
 function MainPage(){
     return(
@@ -8,8 +9,8 @@ function MainPage(){
             <Header />
             <main>
                 <section class="underheader">
-                    <img src="./assets/assets/banner.png" width="100%" height="300px"/>
-                    <img class="headshot" src="./assets/assets/60100563936__D1A41A9A-F3C0-4440-85FF-E12C2A9B3511.jpg"/>
+                    <img src={require("./assets/banner.png")} alt='Ink Splash' width="100%" height="300px"/>
+                    <img class="headshot" src={require("./assets/60100563936__D1A41A9A-F3C0-4440-85FF-E12C2A9B3511.jpg")} alt='Stefan'/>
                 </section>
 
                 <section id="about-me" class="about-me">

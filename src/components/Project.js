@@ -1,32 +1,34 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import '../App.css'
 
-function Project() {
-    <section id="work" class="work">
-        <Header />
-            <h1>Work</h1>
+export default function Project() {
+    return(
+        <section id="work" className="work">
+            <Header />
+                <h1 className="work-header">Work</h1>
 
-            <section id="main" class="work-card">
-                <a href="https://dreamtheme.herokuapp.com/login"><img class="back-pic" src="./assets/assets/Start.png" width="100%" height="300px" alt="Dream Theme" /></a>
-            </section>
+                <section id="main" className="work-card">
+                    <a href="https://dreamtheme.herokuapp.com/login"><img className="back-pic" src={require("./assets/DreamTheme.png")} width="100%" height="300px" alt="Dream Theme" /></a>
+                    <h3 className="image-header">Dream Theme</h3>
+                </section>
 
-            <section class="work-card">
-                <a href="https://jnbanks.github.io/Project1-Movie-Beverage/"><img class="back-pic" src="./assets/assets/Start.png" width="100%" height="300px" alt="Boozy Movies" /></a>
-                <h3 class="image-header">Boozy Movies</h3>
-            </section>
+                <section className="work-card">
+                    <a href="https://jnbanks.github.io/Project1-Movie-Beverage/"><img className="back-pic" src={require("./assets/Start.png")} width="100%" height="300px" alt="Boozy Movies" /></a>
+                    <h3 className="image-header">Boozy Movies</h3>
+                </section>
 
-            <section class="work-card">
-                <a href="https://sfelbeck.github.io/Quiz_SFelbeck/"><img class="back-pic" src="./assets/assets/victory.png" alt="Sci-fi quiz" width="100%" height="200px"/></a>
-                <h3 class="image-header">Sci-fi quiz</h3>
-            </section>
+                <section className="work-card">
+                    <a href="https://sfelbeck.github.io/Quiz_SFelbeck/"><img className="back-pic" src={require("./assets/victory.png")} alt="Sci-fi quiz" width="100%" height="200px"/></a>
+                    <h3 className="image-header">Sci-fi quiz</h3>
+                </section>
 
-            <section class="work-card">
-                <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img class="back-pic" src="./assets/assets/after.png" alt="Weather" width="100%" height="200px"/></a>
-                <h3 class="image-header">Weather Dashboard</h3>
-            </section>
-        <Footer />
-    </section>
+                <section className="work-card">
+                    <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img className="back-pic" src={require("./assets/after.png")} alt="Weather" width="100%" height="200px"/></a>
+                    <h3 className="image-header">Weather Dashboard</h3>
+                </section>
+            <Footer />
+        </section>
+    )
 }
-
-export default Project;
