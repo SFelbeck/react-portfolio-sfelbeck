@@ -4,9 +4,9 @@
 }
 
 :root {
-  --foreground: purple;
-  --background: rgb(216, 222, 231);
-  --dark: rgb(51, 36, 85);
+  --foreground: rgb(1, 121, 115);
+  --background: rgb(98, 102, 107);
+  --dark: rgb(48, 56, 58);
   --light: rgb(97, 194, 162);
   --font: sans-serif;
 }
@@ -148,4 +148,6 @@ footer {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  position: fixed;
+  bottom: 0;
 }

@@ -1,15 +1,12 @@
 //imports react as well as the render functions for the header and footer, and finally applies the universal styling file
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+
 import '../App.css'
 
 //a function that renders the html elements and exports the default version
 export default function Project() {
     return(
         <section id="work" className="work">
-            {/* inserts the header render function here */}
-            <Header />
                 <h1 className="work-header">Work</h1>
 
                 <section id="main" className="work-card">
@@ -31,8 +28,6 @@ export default function Project() {
                     <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img className="back-pic" src={require("./assets/after.png")} alt="Weather" width="100%" height="200px"/></a>
                     <h3 className="image-header">Weather Dashboard</h3>
                 </section>
-                {/* inserts the footer render function here */}
-            <Footer />
         </section>
     )
 }

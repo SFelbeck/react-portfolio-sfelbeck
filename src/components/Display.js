@@ -1,15 +1,11 @@
 //imports react as well as the render functions for the header and footer, and finally applies the universal styling file
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
 import '../App.css'
 
 //a function that renders the html elements and exports the default version
 function MainPage(){
     return(
         <body>
-            {/* inserts the header render function here */}
-            <Header />
             <main>
                 <section class="underheader">
                     <img src={require("./assets/banner.png")} alt='Ink Splash' width="100%" height="300px"/>
@@ -19,12 +15,11 @@ function MainPage(){
                 <section id="about-me" class="about-me">
                     <h1>About Me</h1>
                     <p>
-                        Hi! My name is Stefan, and welcome to my professional portfolio! There isnt much here right now but boy oh boy there will be!
+                        Hi! My name is Stefan, and welcome to my professional portfolio! I am a recent graduate of a fullstack web development bootcamp hosted by the University of Washington.
+                        With experience in graphic design, animation, as well as game development I am particularly strong in front end coding. Skills which I am continuing to hone and perfect! Please check back here for future updates!
                     </p>
                 </section>
             </main>
-            {/* inserts the footer render function here */}
-            <Footer />
         </body>
     )
 }
