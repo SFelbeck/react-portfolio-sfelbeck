@@ -37,4 +37,4 @@ Stefan Felbeck
 If you have any questions you can reach me at:
 [GitHub](https://www.github.com/SFelbeck) or at [email](mailto:stefanfelbeck@gmail.com).
 
-<a href="https://portfolio-sfelbeck.herokuapp.com/">You can find the site here</a>
+<a href="https://sfelbeck-portfolio.herokuapp.com/">You can find the site here</a>

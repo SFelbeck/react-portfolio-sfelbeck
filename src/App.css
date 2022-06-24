@@ -32,6 +32,8 @@ h1 {
   text-align: right;
   height: 100px;
   width: 100%;
+  /* position: fixed;
+  top: 0; */
 }
 
 .header h1 {

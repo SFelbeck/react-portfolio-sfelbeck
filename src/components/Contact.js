@@ -12,8 +12,8 @@ export default function Contact(){
             <a href="tel: 425-503-0527">425-503-0527</a>
             <a href="https://github.com/SFelbeck">GitHub</a>
             <a href="https://www.linkedin.com/in/stefan-felbeck-11655b98/">LinkedIn</a>
-            {/* note the pdf format is not supporter meaning the resume link does not currently work */}
-            <a href="./assets/resume.pdf">Resume</a>
+            {/* note the pdf format is not supported meaning the resume link does not currently work */}
+            <a href="https://docs.google.com/document/d/1xDGVRFLm5enuwFq7ob28L5Gz1HOMwsym/edit">Resume</a>
         </section>
     )
 }

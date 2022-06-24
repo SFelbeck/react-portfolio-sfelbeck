@@ -20,12 +20,12 @@ export default function Project() {
                 </section>
 
                 <section className="work-card">
-                    <a href="https://sfelbeck.github.io/Quiz_SFelbeck/"><img className="back-pic" src={require("./assets/victory.png")} alt="Sci-fi quiz" width="100%" height="200px"/></a>
+                    <a href="https://sfelbeck.github.io/Quiz_SFelbeck/"><img className="back-pic" src={require("./assets/victory.png")} alt="Sci-fi quiz" width="100%" height="300px"/></a>
                     <h3 className="image-header">Sci-fi quiz</h3>
                 </section>
 
                 <section className="work-card">
-                    <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img className="back-pic" src={require("./assets/after.png")} alt="Weather" width="100%" height="200px"/></a>
+                    <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img className="back-pic" src={require("./assets/after.png")} alt="Weather" width="100%" height="300px"/></a>
                     <h3 className="image-header">Weather Dashboard</h3>
                 </section>
         </section>
