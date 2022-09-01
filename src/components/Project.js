@@ -26,16 +26,18 @@ export default function Project() {
                     <p>Technologies showcased include The Cocktail Database and The Movie Database</p>
                 </section>
 
-                <section className="work-card">
+                <section id="last-card" className="work-card">
                     <a href="https://sfelbeck.github.io/Quiz_SFelbeck/"><img className="back-pic" src={require("./assets/victory.png")} alt="Sci-fi quiz" width="100%" height="300px"/></a>
                     <h3 className="image-header">Sci-fi quiz</h3>
                     <a href="https://github.com/SFelbeck/Quiz_SFelbeck">Github Here</a><br></br>
+                    <p>A quiz app project that loops through some questions about science fiction and provides a score based on remaining time.</p>
                 </section>
 
-                <section className="work-card">
+                <section id="last-card" className="work-card">
                     <a href="https://sfelbeck.github.io/Weather_Dashboard_SFelbeck/"><img className="back-pic" src={require("./assets/after.png")} alt="Weather" width="100%" height="300px"/></a>
                     <h3 className="image-header">Weather Dashboard</h3>
                     <a href="https://github.com/SFelbeck/Weather_Dashboard_SFelbeck">Github Here</a><br></br>
+                    <p>Functional weather app that connects to a weather api and displays current data for cities searched by user</p>
                 </section>
         </section>
     )

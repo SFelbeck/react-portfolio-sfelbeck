@@ -105,16 +105,21 @@ nav a:hover {
   color: var(--light);
   position: relative;
   border-radius: 10px;
+  background-color: var(--foreground);
 }
 
 /* sets card headers inside the space of the image and gives it a background */
 .work-card h3 {
   position: absolute;
-  bottom: 10px;
+  bottom: 75px;
   left: 20px;
   background-color: var(--foreground);
   padding: 5px;
   border-radius: 10px;
+}
+
+.work-card a {
+  color: white;
 }
 
 /* there was a space under the pictures before the border...emphasis on "was" */
@@ -127,6 +132,10 @@ nav a:hover {
   transition: 2s ease;
   opacity: 0.5;
   box-shadow: 0 5px 10px 0 black;
+}
+
+#last-card {
+  margin-bottom: 100px;
 }
 
 .contact-header {
