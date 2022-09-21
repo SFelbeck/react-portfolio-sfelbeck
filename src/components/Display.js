@@ -19,6 +19,17 @@ function MainPage(){
                         With experience in graphic design, animation, as well as game development I am particularly strong in front end coding. Skills which I am continuing to hone and perfect! Please check back here for future updates!
                     </p>
                 </section>
+                <section id="tech-skills" class="about-me">
+                    <h1>Technical Skills</h1>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>NodeJS</li>
+                        <li>SQL</li>
+                    </ul>
+                </section>
             </main>
         </body>
     )
