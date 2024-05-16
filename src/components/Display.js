@@ -3,10 +3,10 @@ import React from 'react';
 function mainPage(){
     return(
         <body>
-    {/* <header class="header">
-        <h1>Stefan Felbeck</h1>
+            {/* <header class="header">
+            h1>Stefan Felbeck</h1>
         
-        <nav>
+            <nav>
             <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact-me">Contact Me</a>
@@ -23,7 +23,7 @@ function mainPage(){
         <section id="about-me" class="about-me">
             <h1>About Me</h1>
             <p>
-                Hi! My name is Stefan, and welcome to my professional portfolio! There isnt much here right now but boy oh boy there will be!
+                Hi! My name is Stefan, I am an aspiring UX designer and programmer! Here you can find my works related to Web development!
             </p>
         </section>
 
