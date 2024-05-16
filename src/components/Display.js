@@ -15,9 +15,8 @@ function MainPage(){
                 <section id="about-me" class="about-me">
                     <h1>About Me</h1>
                     <p>
-                        Hi! My name is Stefan, and welcome to my professional portfolio! I am a recent graduate of a fullstack web development bootcamp hosted by the University of Washington.
-                        With experience in graphic design, animation, as well as game development I am particularly strong in front end coding. Skills which I am continuing to hone and perfect! Please check back here for future updates!
-                    </p>
+                        Hi! My name is Stefan, and welcome to my professional portfolio! I am an aspiring UX designer.
+                        With experience in graphic design, animation, programming, as well as game development. I hope to use my many experiences in the pursuit of a career in UX design!
                 </section>
                 <section id="tech-skills" class="about-me">
                     <h1>Technical Skills</h1>
