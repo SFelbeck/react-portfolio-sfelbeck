@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+## Title: react-portfolio-sfelbeck
+![](https://img.shields.io/badge/license-mit-green)
+[mit](https://choosealicense.com/licenses/mit)
+        
+## Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+--[Description](#description)
 
-## Available Scripts
+--[Usage](#usage)
 
-In the project directory, you can run:
+--[Installation](#installation)
 
-### `npm start`
+--[Testing](#testing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+--[Contributing](#contributing)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+--[Questions](#questions)
 
-### `npm test`
+![screenshot](src\components\assets\appExample.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description: 
+In this project I am creating a more intuitive professional portfolio through react with multiple pages which stands as a massive improvement over previous iterations. 
 
-### `npm run build`
+## Usage:
+upon opening the app you will be greeted with an about me screen, in the upper right corner there will be navigational tabs that can take you other pages of the app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation: 
+Though this application is deployed to heroku if you are running it in vscode you will need to install react and react-router-dom 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Testing:
+This particular application doesnt have any specialized testing involved so a user may test it in the same way it's used.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing: 
+Stefan Felbeck 
 
-### `npm run eject`
+## Questions: 
+If you have any questions you can reach me at:
+[GitHub](https://www.github.com/SFelbeck) or at [email](mailto:stefanfelbeck@gmail.com).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://sfelbeck-portfolio.herokuapp.com/">You can find the site here</a>
