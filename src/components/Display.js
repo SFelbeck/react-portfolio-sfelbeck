@@ -17,6 +17,7 @@ function MainPage(){
                     <p>
                         Hi! My name is Stefan, and welcome to my professional portfolio! I am an aspiring UX designer.
                         With experience in graphic design, animation, programming, as well as game development. I hope to use my many experiences in the pursuit of a career in UX design!
+                    </p>
                 </section>
                 <section id="tech-skills" class="about-me">
                     <h1>Technical Skills</h1>
